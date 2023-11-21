@@ -2,7 +2,7 @@
  
 # Eat Safe, Love
 
-The `NoSQL_setup.ipynb` sets up and updates the database. The `NoSQL_analysis.ipynb` queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the `establishments.json` file was imported using Terminal with `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`. 
+The `NoSQL_setup.ipynb` sets up and updates the database. The `NoSQL_analysis.ipynb` queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the `establishments.json` file was imported using Terminal with `!mongoimport --type json -d uk_food -c establishments --drop --jsonArray Resources/establishments.json`. 
 
 ## Set Up and Update Database
 * Insert the new halal restaurant opened in Greenwich to the Database.
